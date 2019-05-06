@@ -15,3 +15,5 @@ diff = datetime.datetime.strptime(time2, datetimeFormat)\
 
 print(diff)
 
+
+
