@@ -1,20 +1,21 @@
-import datetime
+import datetime  
 from time import strftime
 
+#det som virker bedst
 datetimeFormat = '%M:%S.%f' 
 
 #time1= '1:22.000'
 #time2= '2:23.111'
 
-time1 = input("Type 1st lap ")
+time1 = input("Type 1st lap ") #får input fra brugeren
 time2 = input("Type 2nd lap ")
 
 diff = datetime.datetime.strptime(time2, datetimeFormat)\
-	 - datetime.datetime.strptime(time1, datetimeFormat)
+	 - datetime.datetime.strptime(time1, datetimeFormat) #Formatere til "datetimeFormat" og udregner intervallet
 
 #Interval= datetime.datetime.strptime(diff, datetimeFormat)
 
-print(diff)
+print(diff) #udskriver resultatet
 
 
 
