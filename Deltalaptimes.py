@@ -15,7 +15,8 @@ diff = datetime.datetime.strptime(time2, datetimeFormat)\
 
 #Interval= datetime.datetime.strptime(diff, datetimeFormat)
 
-print(diff) #udskriver resultatet
+print(diff)
+input("Skriv for at lukke ")
 
 
 
